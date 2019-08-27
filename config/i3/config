@@ -154,7 +154,7 @@ exec_always feh --bg-center ~/Documents/images/pinkfloydpoke.jpg
 
 exec_always --no-startup-id xrdb $HOME/.Xresources
 #exec_always --no-startup-id compton
-exec_always --no-startup-id $HOME/.config/polybar/launch.sh
+exec_always --no-startup-id bash $HOME/.config/polybar/launch.sh
 
 for_window [class=".*"] title_format " %title"
 gaps inner 10
