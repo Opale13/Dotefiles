@@ -2,12 +2,12 @@
 !       urxvt
 ! ===================
 URxvt*scrollBar:	         false
-URxvt*letterSpace:           -5
-URxvt.internalBorder:        10
-URxvt*font: 		         xft:Roboto regular:size=12
-URxvt*boldFont:		         xft:Roboto bold:size=12
+URxvt*letterSpace:           -2
+URxvt*internalBorder:        10
+URxvt*font: 		         xft:Roboto style=Regular:size=12
+URxvt*boldFont:		         xft:Roboto style=Bold:size=12
 URxvt*cursorBlink:           true
-URxvt.iso14755:		         false
+URxvt*iso14755:		         false
 URxvt*utf8:			         true
 ! URxvt.keysym.C-equal:      resize-font:bigger
 ! URxvt.keysym.C-parenright: resize-font:smaller
@@ -15,12 +15,12 @@ URxvt*utf8:			         true
 ! ============
 !   Couleurs
 ! ============
-*secondary:  #444B6A
 *active:     #C0CAF5
+*secondary:  #444B6A
 
-*.foreground:   #C0CAF5
-*.background:   #1A1B26
-*.cursorColor:  #C0CAF5
+*foreground:   #C0CAF5
+*background:   #1A1B26
+*cursorColor:  #C0CAF5
 *fading: 20
 *fadeColor: #5A638C
 
@@ -37,7 +37,7 @@ URxvt*utf8:			         true
 *.color10: #9ECE6A
 
 ! yellow
-*.color3:  #E0AF68
+*.color3:  #fba922
 *.color11: #BBA461
 
 ! blue
