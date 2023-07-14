@@ -9,4 +9,5 @@ sudo apt-get install fonts-Roboto
 sudo apt-get install fonts-font-awesome
 sudo apt-get install git
 sudo apt-get install code
+sudo apt-get install nvim
 ```
