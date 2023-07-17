@@ -1,1 +1,1 @@
-alias nv="~/nvim,appimage'
+alias nv="~/nvim.appimage'
