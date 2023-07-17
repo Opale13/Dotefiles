@@ -13,8 +13,13 @@ local packer_bootstrap = ensure_packer()
 
 return require('packer').startup(function(use)
   use 'wbthomason/packer.nvim'
-  use 'nvim-tree/nvim-tree.lua'
-  use 'nvim-tree/nvim-web-devicons'
+  use {
+    'nvim-tree/nvim-tree.lua',
+    after = "nvim-web-devicons",
+    requires = {
+      'nvim-tree/nvim-web-devicons' 
+    },
+  } 
   use 'nvim-lualine/lualine.nvim'
 
   -- Automatically set up your configuration after cloning packer.nvim
