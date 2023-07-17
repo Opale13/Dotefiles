@@ -1,6 +1,8 @@
 # Font
 Install Hack Nerd font
+
 https://www.nerdfonts.com/font-downloads
+
 https://www.geekbits.io/how-to-install-nerd-fonts-on-linux/
 
 # Packages
